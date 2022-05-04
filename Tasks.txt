@@ -1,0 +1,13 @@
+Task2-1: 
+- accept two floating numbers (input from keyboard)
+- display the following results
+	- sum (add)
+	- diff (sub)
+	- prd (Mul)
+	- div (div)
+	- rem (div and rem)
+- convert floating point numbers to integer and calculate and display
+	- power (10, 3) -> 1000
+	- sqrt of first no 10 -> 3.33
+
+

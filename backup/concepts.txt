@@ -1,0 +1,9 @@
+Recap
+1 download and install python
+2 hello world
+3 first python program (filename.py)
+------------------------------------------
+4. basic input/output
+- read value from keyboard -> input
+- output -> display
+
