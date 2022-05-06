@@ -5,11 +5,10 @@ Created on Thu May  5 20:20:32 2022
 """
 
 # Data Types
-# a. Basic type (bool, int, float, str)
-# i. boolean -Store only two values (True or False)
 
+# i. boolean -Store only two values (True or False)
 # Example-1
-# var1 = False
+# var1 = True # False
 # print(var1)
 
 # Example-2
@@ -73,25 +72,84 @@ print(var1)
 
 # Example-8
 # Read string from user
+"""
 var1 = None
 var1 = input("Enter any string ") # input-> string
 print(var1)
+"""
+
+# bool (Boolean), int (Integer), float (Floating Point), str (String) - basic types
+# Reading value from keyboard - str
+    # +, -, *, / - Cannt apply on str
+    # str to int and apply +, -, *, /
+    
+# Type Conversion
+    # Type Casting
+        # Numeric to Numeric
+    # Type Conversion
+        # Numeric to String
+        # String to Numeric
+
+# Type Casting
+# int to float
+num1 = 15  # int
+num2 = float(num1) # int -> float
+print(num1)
+print(num2)
+
+# float to int
+num3 = 123456.789   # float
+num4 = int(num3)    # int  
+print(num3)
+print(num4)
+
+# str to int
+str1 = "123"
+num5 = int(str1)
+print(str1) # str
+print(num5) # int
+
+# int to str
+num5 = 67
+str1 = str(num5)
+print(num5)
+print(str1)
+
+
+# str to float
+str2 = "123.456"
+num6 = float(str2)
+print(str2)
+print(num6)
+
+# float to str
+num6 = 456.321
+str1 = str(num6)
+print(str1)
+print(num6)
+
+
+# num7 = int("Hello")
+# ValueError: invalid literal for int() with base 10: 'Hello'
+
+# Explore varaible
+import sys
+var1 = 12345678910;
+print(var1) # value of var1
+print(type(var1))# value type - bool
+print(id(var1)) # memory reference of variable
+print(isinstance(var1, bool))
+print(isinstance(var1, int)) # 0-False|1-True
+print(isinstance(var1, float))
+print(isinstance(var1, str))
+print(sys.getsizeof(var1))
+
+# Task1
+    # Display the value of specific memory space. (1727995907760)
+    # Display all the variables declare in memory. 
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-# b. Extended type
